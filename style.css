@@ -115,11 +115,12 @@ body {
     body {
         height: 100vh;
         width: 100vw;
+        font-size: 0.6rem;
     }
 
     .container {
-        height: 100%;
-        width: 100%;
+        height: 400px;
+        width: 300px;
     }
 
     .root {
@@ -136,10 +137,16 @@ body {
         justify-content: space-between;
         gap: 10px;
         flex-direction: column;
+        margin: -0.3rem;
     }
 
     .nav-bar {
-        display: none;
+        height: 70px;
+        width: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0.4rem;
     }
 
     .input-element {
@@ -177,9 +184,10 @@ body {
         flex-shrink: 0;
     }
 
-    .clear {
+    .clearButton {
         height: 100px;
         width: 280px;
+        align-items: center;
     }
 }
 
@@ -190,8 +198,8 @@ body {
     }
 
     .container {
-        height: 100%;
-        width: 100%;
+        height: 800px;
+        width: 1200px;
     }
 
     .root {
@@ -202,7 +210,7 @@ body {
     .nav-bar {
         height: 60px;
         width: 500px;
-        padding: 0 10px;
+        margin: 2rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -227,7 +235,7 @@ body {
         padding: 0 5px;
     }
 
-    .btn-add {
+    .add-task {
         height: 35px;
         width: 120px;
         color: white;
@@ -276,17 +284,6 @@ body {
         align-items: center;
     }
 
-    .done-btn {
-        height: 30px;
-        width: 60px;
-        font-size: large;
-        font-weight: bolder;
-        color: rgb(48, 188, 13);
-        background: transparent;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
 
     .clear {
         height: 100px;
