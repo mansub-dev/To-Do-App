@@ -158,9 +158,6 @@ body {
         width: 180px;
     }
 
-    .btn-add {
-        width: 80px;
-    }
 
     .result {
         width: 280px;
@@ -189,7 +186,7 @@ body {
         width: 100px;
         color: white;
         background: rgba(23, 227, 108, 0.792);
-        font-size: 16px;
+        font-size: 14px;
         outline: none;
     }
 
@@ -246,13 +243,11 @@ body {
 
     .add-task {
         height: 35px;
-        width: 120px;
+        width: 100px;
         color: white;
         background: rgba(23, 227, 108, 0.792);
         font-size: 16px;
         outline: none;
-        cursor: pointer;
-        border: none;
     }
 
     .main-content {
