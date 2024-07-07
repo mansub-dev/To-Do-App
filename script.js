@@ -29,6 +29,9 @@ let tasks = JSON.parse(localStorage.getItem("tasks")) ?? [];
 
 function renderTasks() {
     result.innerHTML = "";
+
+    tasks.sort((a, b) => a.done - b.done);
+
     tasks.forEach((element, i) => {
         const resultContainer = document.createElement("div");
         const taskDiv = document.createElement("div");
